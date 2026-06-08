@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research | Bin Zhu</title>
+  <meta name="description" content="Research highlights for Bin (Benjamin) Zhu, grouped by theme: trustworthy AI, AI for security, AI-assistant quality, neural retrieval, authentication, phishing defense, multimedia security, and privacy-preserving computation.">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="index.html">Bin Zhu</a>
+      <div class="nav-links">
+        <a href="experience.html">Experience</a>
+        <a aria-current="page" href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="patents.html">Patents</a>
+        <a href="students.html">Students</a>
+        <a href="personal.html">Personal</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="page-heading">
+      <div class="eyebrow">Research</div>
+      <h1>Research by Theme</h1>
+      <p>
+        My research connects trustworthy AI, AI for security, search and retrieval, multimedia,
+        privacy, and content protection. This page groups selected work by theme; the complete record
+        is on the
+        <a href="publications.html">publications</a> and <a href="patents.html">patents</a> pages.
+      </p>
+    </section>
+
+    <section class="research-group">
+      <h2>Trustworthy AI &amp; AI Security</h2>
+      <p>
+        Making AI systems more trustworthy and robust: defending models and agents, detecting and
+        removing backdoors, protecting model integrity and intellectual property, and improving
+        adversarial robustness.
+      </p>
+      <ul class="key-works">
+        <li class="work-item">
+          <span class="work-title">PVDI: Preserving Vital and Disrupting Irrelevant Latent Attentions for Robust Backdoor Defense</span>
+          <span class="work-meta">IEEE Transactions on Information Forensics and Security, 2026</span>
+          <span class="work-desc">A latent-attention approach that neutralizes hidden backdoor triggers while preserving the model's useful behavior.</span>
+        </li>
+        <li class="work-item">
+          <span class="work-title">ABDP: Adversarial Backdoor Detection and Purification</span>
+          <span class="work-meta">IEEE Transactions on Information Forensics and Security, 2026</span>
+          <span class="work-desc">Detects whether a trained model carries hidden backdoors and purifies poisoned training data to produce a backdoor-free model.</span>
+        </li>
+        <li class="work-item">
+          <span class="work-title">BehaviorGuard &mdash; account-compromise detection for human-operated ransomware</span>
+          <span class="work-meta">Microsoft Defender for Endpoint &middot; technology transfer</span>
+          <span class="work-desc">Multi-resolution, multi-stage user-behavior modeling that catches compromised accounts during lateral movement, the top enterprise threat; first stage shipped.</span>
+        </li>
+        <li class="work-item">
+          <span class="work-title">Hardening malicious-PowerShell detection</span>
+          <span class="work-meta">Microsoft Defender for Endpoint &middot; technology transfer</span>
+          <span class="work-desc">Built a strong evasion attack against the production detector, then a two-classifier defense that markedly improved robust accuracy under attack; countermeasures were adopted.</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="research-group">
+      <h2>AI Assistant Quality, Evaluation &amp; Prompt Optimization</h2>
+      <p>
+        Improving AI assistants through rigorous evaluation, replay infrastructure, model selection,
+        agentic deep search, and automatic prompt optimization.
+      </p>
+      <ul class="key-works">
+        <li class="work-item">
+          <span class="work-title">Automatic and strategic-guided prompt optimization (AMPO / StraGo)</span>
+          <span class="work-meta">EMNLP 2024 &middot; deployed across multiple Bing teams</span>
+          <span class="work-desc">Methods that automatically search and refine prompts, including tree-structured and strategy-guided optimization, adopted by several product teams.</span>
+        </li>
+        <li class="work-item">
+          <span class="work-title">Evaluating LLM-Based Agents for Multi-Turn Conversations: A Survey</span>
+          <span class="work-meta">ACM Transactions on Intelligent Systems and Technology, 2026</span>
+          <span class="work-desc">A systematic framing of how to measure multi-turn agent quality &mdash; the foundation for trustworthy assistant evaluation.</span>
+        </li>
+        <li class="work-item">
+          <span class="work-title">Reasoning-quality evaluation and model selection for M365 Copilot</span>
+          <span class="work-meta">Microsoft 365 Copilot &middot; applied research</span>
+          <span class="work-desc">Evaluation and replay infrastructure plus model-switching that improved measured citation and answer quality in production-facing settings.</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="research-group">
+      <h2>Search Quality &amp; Neural Retrieval</h2>
+      <p>
+        Better retrieval at web scale, from multi-vector neural retrieval and document understanding
+        to index compression with large cost savings and no speed sacrifice.
+      </p>
+      <ul class="key-works">
+        <li class="work-item">
+          <span class="work-title">Multi-vector retrieval with XTR + ColBERT</span>
+          <span class="work-meta">Bing Core Search &middot; applied research</span>
+          <span class="work-desc">A multi-vector retrieval approach that outperformed dense retrieval and approached production sparse+dense quality.</span>
+        </li>
+        <li class="work-item">
+          <span class="work-title">Bing reverse-index (PDI) compression</span>
+          <span class="work-meta">Bing &middot; technology transfer</span>
+          <span class="work-desc">Roughly 23% average storage savings with no loss in compression/decompression speed &mdash; estimated to save at least $10M per year, and shipped.</span>
+        </li>
+        <li class="work-item">
+          <span class="work-title">Structure-based adaptive document caching</span>
+          <span class="work-meta">US Patent 9,195,773</span>
+          <span class="work-desc">Caching that exploits document structure to improve web serving performance.</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="research-group">
+      <h2>Human Interactive Proofs (CAPTCHA) &amp; Authentication</h2>
+      <p>
+        Distinguishing humans from bots and legitimate users from impostors, with a broad CAPTCHA
+        portfolio, authentication research, and security analyses of graphical passwords.
+      </p>
+      <ul class="key-works">
+        <li class="work-item">
+          <span class="work-title">Visual HIP and Audio HIP transferred to Windows Live</span>
+          <span class="work-meta">Technology transfer &middot; in production use since ~2010</span>
+          <span class="work-desc">Production human-interactive-proof technology deployed after the prior CAPTCHA was broken.</span>
+        </li>
+        <li class="work-item">
+          <span class="work-title">Breaking password-discretization for click-based graphical passwords</span>
+          <span class="work-meta">WWW 2013, ACM CCS 2014, IEEE TIFS</span>
+          <span class="work-desc">Proved that all proposed discretization schemes leak password information and are vulnerable to dictionary attacks, overturning prior assumptions.</span>
+        </li>
+        <li class="work-item">
+          <span class="work-title">Image-based CAPTCHA exploiting object-recognition context</span>
+          <span class="work-meta">US Patent 9,317,676 (among a broad HIP patent portfolio)</span>
+          <span class="work-desc">One of several patented designs spanning manipulable, overlay, and audio HIPs and human-computation frameworks.</span>
+        </li>
+        <li class="work-item">
+          <span class="work-title">Zero-effort smartphone locking with wristwear &amp; device-assisted authentication</span>
+          <span class="work-meta">Research &amp; concept work</span>
+          <span class="work-desc">The first zero-effort scheme to lock/unlock phones via wristwear, plus a secure-mouse concept anticipating later hardware-token and passkey patterns.</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="research-group">
+      <h2>Phishing, Fraud &amp; Account Protection</h2>
+      <p>
+        Protecting users and platforms from abuse through machine learning, content analysis,
+        evasion-resistant logo recognition, fraud detection, and privacy-constrained defenses.
+      </p>
+      <ul class="key-works">
+        <li class="work-item">
+          <span class="work-title">Anti-phishing for Office 365 email</span>
+          <span class="work-meta">Technology transfer (OCR logo recognizer shipped Nov. 2017)</span>
+          <span class="work-desc">Webpage classification, content-based invariant features, and OCR/DNN logo detection engineered to be hard to evade.</span>
+        </li>
+        <li class="work-item">
+          <span class="work-title">Phishing defense for Microsoft Forms under strict privacy constraints</span>
+          <span class="work-meta">Technology transfer</span>
+          <span class="work-desc">Tiered reputation, sensitive-input detection, warp-robust logo detection (~99% accuracy), and FXAM, a fast, explainable anti-phishing model that cut review load.</span>
+        </li>
+        <li class="work-item">
+          <span class="work-title">Malicious URL detection &amp; account-based fraud classification</span>
+          <span class="work-meta">US Patents 9,178,901 and 9,189,746</span>
+          <span class="work-desc">Detection of malicious URLs and machine-learning classification of accounts for credit-card-fraud defense in Microsoft payment scenarios.</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="research-group">
+      <h2>Multimedia Security, Watermarking &amp; Content Protection</h2>
+      <p>
+        A long-running line of work on protecting media: audio, image, and video watermarking;
+        scalable encryption and DRM; and data embedding for images, charts, and slides.
+      </p>
+      <ul class="key-works">
+        <li class="work-item">
+          <span class="work-title">Cognicity watermarking products (AudioKey, tMark, TurnKey)</span>
+          <span class="work-meta">Cognicity, Inc. &middot; acquired by Digimarc, 2001</span>
+          <span class="work-desc">Commercial audio/image/video watermarking, including transactional download-time watermarking and per-CD unique IDs; contributions to MUSE, the 4C DVD-Audio proposal, and SDMI screening.</span>
+        </li>
+        <li class="work-item">
+          <span class="work-title">Scalable media encryption &amp; DRM for MPEG-4 and JPEG2000</span>
+          <span class="work-meta">Book chapters (2006) &amp; an extensive patent portfolio</span>
+          <span class="work-desc">Syntax-compliant, fully scalable encryption and layered access control that preserve scalability and enable transcoding without decryption.</span>
+        </li>
+        <li class="work-item">
+          <span class="work-title">Chartem &amp; ChartStamp &mdash; recovering data locked in chart images</span>
+          <span class="work-meta">IEEE VIS 2020 &amp; ACM Multimedia 2022</span>
+          <span class="work-desc">The first data-embedding approach to reconstruct chart objects from images (enabling "Speak Charts" for visually impaired users), and a DNN encoder&ndash;decoder robust to printing, recapture, and JPEG.</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="research-group">
+      <h2>Privacy-Preserving Computation &amp; Systems Reliability</h2>
+      <p>
+        Computing on protected data and keeping large systems healthy: processing in the
+        homomorphic-encryption domain, analytics on encrypted video, and unsupervised anomaly
+        detection and outage prediction for cloud services.
+      </p>
+      <ul class="key-works">
+        <li class="work-item">
+          <span class="work-title">Decompression in the homomorphic-encryption domain</span>
+          <span class="work-meta">ACM Multimedia 2018 (JPEG) &amp; ICASSP 2019 (FLAC)</span>
+          <span class="work-desc">The first JPEG decompression realized in the HE domain, and HE-domain FLAC decoding that generalizes to several lossless audio formats.</span>
+        </li>
+        <li class="work-item">
+          <span class="work-title">Privacy-preserving motion detection on encrypted, HEVC-compressed video</span>
+          <span class="work-meta">ACM Transactions on Multimedia Computing, Communications, and Applications, 2022</span>
+          <span class="work-desc">Motion detection and trajectory inference directly on encrypted surveillance video, with detection comparable to the unencrypted case.</span>
+        </li>
+        <li class="work-item">
+          <span class="work-title">Cloud outage prediction &amp; self-cleansing anomaly detection for Azure</span>
+          <span class="work-meta">Applied research</span>
+          <span class="work-desc">Topology- and ML-based incident correlation reaching high precision/recall for major tenants, plus an unsupervised, label-free anomaly detector for storage logs.</span>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Bin (Benjamin) Zhu &middot;
+      <a href="https://scholar.google.com/citations?user=zyXRIGgAAAAJ&amp;hl=en">Google Scholar</a> &middot;
+      <a href="https://dblp.org/pid/85/5693.html">DBLP</a>
+    </p>
+  </footer>
+</body>
+</html>
