@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>代表工作 | 朱斌</title>
+  <meta name="description" content="朱斌（Bin Benjamin Zhu）的代表工作，覆盖可信 AI、AI 安全、AI 在安全中的应用、产品团队工作、创业产品和多媒体安全。">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="index-zh.html">朱斌</a>
+      <div class="nav-links">
+        <a href="education-zh.html">教育</a>
+        <a href="experience-zh.html">工作经历</a>
+        <a aria-current="page" href="research-zh.html">代表工作</a>
+        <a href="publications-zh.html">论文</a>
+        <a href="patents-zh.html">专利</a>
+        <a href="students-zh.html">指导与合作</a>
+        <a href="personal-zh.html">个人</a>
+        <a class="lang-switch" href="research.html" lang="en">English</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="page-heading">
+      <div class="eyebrow">代表工作</div>
+      <h1>代表工作</h1>
+      <p>
+        本页按两个相互关联的视角组织。研究主题覆盖可信 AI、AI 安全、AI 在安全中的应用、AI 助手质量、多媒体安全、隐私保护计算和系统方向，并在相关主题下列出论文、专利和产品影响。产品团队主题覆盖在微软产品组织中的直接工作。完整记录见
+        <a href="publications-zh.html">论文</a>和<a href="patents-zh.html">专利</a>页面。
+      </p>
+    </section>
+
+    <section class="research-section-title">
+      <div class="eyebrow">研究主题</div>
+      <h2>研究主题</h2>
+      <p>按主要学术和技术方向整理的代表性研究主题。</p>
+    </section>
+
+    <section class="research-group">
+      <h2>可信 AI 与 AI 安全</h2>
+      <p>该主题覆盖现代 AI 系统的安全性、鲁棒性和完整性：后门检测与净化、对抗鲁棒性、模型篡改检测与知识产权保护、LLM jailbreak 和提示注入风险，以及 agentic 系统投毒。</p>
+      <ul class="key-works">
+        <li class="work-item"><span class="work-title">后门检测、净化与鲁棒学习</span><span class="work-meta">训练数据投毒、隐藏触发器、模型修复、对抗迁移性</span><span class="work-desc">研究隐藏后门如何进入模型、如何判断模型是否被攻陷，以及如何在保留有用能力的同时移除投毒行为；同时包括对抗迁移攻击和防御。</span><span class="work-links"><strong>相关论文：</strong><a href="publications-zh.html#pvdi-backdoor-defense">PVDI (IEEE TIFS 2026)</a>；<a href="publications-zh.html#abdp-backdoor-purification">ABDP (IEEE TIFS 2026)</a>；<a href="publications-zh.html#consensus-robust-transfer-attacks">Consensus-Robust Transfer Attacks (NeurIPS 2025)</a>；<a href="publications-zh.html#dorpatch-adversarial-patch">DorPatch (NDSS 2024)</a>。</span></li>
+        <li class="work-item"><span class="work-title">LLM 与 agent 安全</span><span class="work-meta">Jailbreak、提示注入、语音驱动攻击、agentic fact checking</span><span class="work-desc">研究 LLM 和 agentic 系统在恶意指令、间接提示注入、投毒或特定模态攻击下的失效方式，并结合攻击分析与防御评测。</span><span class="work-links"><strong>相关论文：</strong><a href="publications-zh.html#indirect-prompt-injection">Indirect Prompt Injection (KDD 2025)</a>；<a href="publications-zh.html#sok-llm-jailbreak-robustness">SoK: LLM Jailbreak Robustness (IEEE S&amp;P 2026)</a>；<a href="publications-zh.html#sirens-whisper">Sirens' Whisper (USENIX Security 2026)</a>；<a href="publications-zh.html#quantifying-llm-attacks">Quantifying LLM Attacks (USENIX Security 2026)</a>；<a href="publications-zh.html#fact2fiction-agentic-fact-checking">Fact2Fiction (AAAI 2026)</a>。</span></li>
+        <li class="work-item"><span class="work-title">模型篡改检测与知识产权保护</span><span class="work-meta">黑盒验证、hard-label 检测、模型复制、服务完整性</span><span class="work-desc">在访问受限的情况下判断模型是否被复制、修改或篡改，并为部署中的 AI 服务提供黑盒和 hard-label 验证方法。</span><span class="work-links"><strong>相关论文：</strong><a href="publications-zh.html#esf-llm-tamper-detection">ESF (ACL Findings 2025)</a>；<a href="publications-zh.html#resf-llm-tamper-detection">RESF (EMNLP 2025)</a>；<a href="publications-zh.html#sdbf-hard-label-tamper-detection">SDBF (CVPR 2025)</a>；<a href="publications-zh.html#intersecting-boundary-sensitive-fingerprinting">Intersecting-Boundary-Sensitive Fingerprinting (ICML 2024)</a>；<a href="publications-zh.html#backdoor-watermark-llm-copyright">Backdoor Watermark for LLM Copyright (ACL 2023)</a>。</span></li>
+      </ul>
+    </section>
+
+    <section class="research-group">
+      <h2>AI 在安全中的应用</h2>
+      <p>该主题将 AI 和机器学习用于实际安全问题：钓鱼和欺诈检测、恶意 URL 和恶意脚本检测、账号攻陷检测、勒索攻击防御、滥用防护，以及面向安全运营的可解释信号。</p>
+      <ul class="key-works">
+        <li class="work-item"><span class="work-title">BehaviorGuard 与人工操作勒索攻击防御</span><span class="work-meta">行为建模、横向移动、企业账号保护</span><span class="work-desc">使用多分辨率用户行为建模检测人工操作勒索攻击中的账号攻陷，目标是在企业约束下尽早捕获横向移动。</span><span class="work-links"><strong>专利：</strong><a href="https://patents.google.com/patent/US20250209157A1/en">Detecting and Mitigating Ransomware Attacks</a>。<strong>产品影响：</strong>微软 Defender for Endpoint 中的 BehaviorGuard 用于检测人工操作勒索攻击中的受害账号。</span></li>
+        <li class="work-item"><span class="work-title">基于 AI 的恶意 PowerShell 脚本和恶意 URL 检测</span><span class="work-meta">对抗加固、Web 滥用、可解释信号</span><span class="work-desc">检测恶意 URL 和恶意 PowerShell 脚本，并通过强规避攻击发现检测器弱点，再针对真实对抗变化进行加固。</span><span class="work-links"><strong>论文：</strong><a href="publications-zh.html#malicious-web-links-attack-types">Detecting Malicious Web Links and Identifying Their Attack Types (USENIX WebApps 2011)</a>。<strong>专利：</strong><a href="https://patents.google.com/patent/US9178901B2/en">Malicious Uniform Resource Locator Detection</a>。<strong>产品影响：</strong>微软 Defender for Endpoint 中的恶意 PowerShell 加固。</span></li>
+        <li class="work-item"><span class="work-title">钓鱼、欺诈与账号滥用检测</span><span class="work-meta">Logo 识别、内容特征、用户/账号信号、隐私约束</span><span class="work-desc">结合网页分类、logo 检测、不变内容特征、账号信息和用户行为信号降低钓鱼与欺诈风险，并在强隐私和可部署性约束下设计系统。</span><span class="work-links"><strong>论文/专利：</strong><a href="publications-zh.html#protect-sensitive-sites-phishing">Protect Sensitive Sites from Phishing Attacks (ICC 2013)</a>；<a href="publications-zh.html#malicious-web-links-attack-types">Detecting Malicious Web Links and Identifying Their Attack Types (USENIX WebApps 2011)</a>；<a href="https://patents.google.com/patent/US9189746B2/en">ML-based account classification</a>；<a href="https://patents.google.com/patent/US9178901B2/en">malicious URL detection</a>；<a href="https://patents.google.com/patent/US8521667B2/en">detection and categorization of malicious URLs</a>。<strong>产品影响：</strong>Office 365、微软 Forms 和账号保护系统。</span></li>
+      </ul>
+    </section>
+
+    <section class="research-group">
+      <h2>AI 助手、搜索与优化</h2>
+      <p>该主题覆盖 AI 助手和搜索系统质量：提示词优化、多轮 agent 评估、模型选择、深度搜索、文档理解、搜索支撑推理和多向量检索。</p>
+      <ul class="key-works">
+        <li class="work-item"><span class="work-title">自动提示词优化</span><span class="work-meta">提示词搜索、多分支优化、策略引导</span><span class="work-desc">将提示词视为可以系统搜索、评估和改进的对象，而不是单纯依赖手工调参；包括树/多分支探索和策略引导优化。</span><span class="work-links"><strong>论文：</strong><a href="publications-zh.html#ampo-prompt-optimization">AMPO (EMNLP 2024)</a>；<a href="publications-zh.html#strago-prompt-optimization">StraGo (EMNLP Findings 2024)</a>。<strong>专利申请：</strong><a href="https://patents.google.com/patent/WO2026007013A1/en">Automatic Tree-Structured Prompt Optimization</a>；<a href="https://patents.google.com/patent/WO2026055907A1/en">Strategic-Guided Prompt Optimization</a>。<strong>产品影响：</strong>多个 Bing 团队使用的实用提示词优化流程。</span></li>
+        <li class="work-item"><span class="work-title">AI 助手和 agent 评估</span><span class="work-meta">多轮质量、推理轨迹、引用质量、可信助手行为</span><span class="work-desc">评估 AI 助手的多轮一致性、搜索支撑推理、引用质量、模型选择，以及更长任务中的 agent 行为。</span><span class="work-links"><strong>论文：</strong><a href="publications-zh.html#evaluating-llm-agents-multiturn">Evaluating LLM-Based Agents for Multi-Turn Conversations: A Survey (ACM TIST 2026)</a>。</span></li>
+        <li class="work-item"><span class="work-title">Web 系统、缓存与搜索基础设施</span><span class="work-meta">缓存、搜索基础设施、延迟、存储效率</span><span class="work-desc">研究 Web 和搜索系统如何在延迟、成本和生产约束下改进缓存、度量、存储效率和长尾文档新鲜度。</span><span class="work-links"><strong>论文/专利：</strong><a href="publications-zh.html#smart-caching-web-browsers">Smart Caching for Web Browsers (WWW 2010)</a>；<a href="publications-zh.html#wpbench-web2-performance">WPBench (WWW 2009)</a>；<a href="https://patents.google.com/patent/US9195773B2/en">Structure-Based Adaptive Document Caching</a>。<strong>产品影响：</strong>Bing 文档理解流水线。</span></li>
+      </ul>
+    </section>
+
+    <section class="research-group">
+      <h2>人机交互证明（CAPTCHA）与认证</h2>
+      <p>该主题覆盖认证和人机验证系统：图像、覆盖式、可操作和音频 HIP/CAPTCHA 设计，图形密码安全分析，以及设备辅助或零负担认证概念。</p>
+      <ul class="key-works">
+        <li class="work-item"><span class="work-title">CAPTCHA 与人机交互证明设计</span><span class="work-meta">图像识别、音频 HIP、覆盖式 HIP、可操作 HIP、人机计算</span><span class="work-desc">设计对人可用、对自动攻击者困难的人机验证机制，涵盖图像识别 CAPTCHA、音频 HIP、覆盖式和可操作 HIP，以及人机计算框架。</span><span class="work-links"><strong>论文：</strong><a href="publications-zh.html#image-recognition-captcha-attacks-design">Attacks and Design of Image Recognition CAPTCHAs (ACM CCS 2010)</a>；<a href="publications-zh.html#comprehensive-human-computation-framework">Comprehensive Human Computation Framework (ACM MM 2008)</a>。<strong>专利：</strong><a href="https://patents.google.com/patent/US9317676B2/en">image-based CAPTCHA</a>；<a href="https://patents.google.com/patent/US10319363B2/en">Audio HIP</a>；<a href="https://patents.google.com/patent/US8990959B2/en">manipulable HIPs</a>；<a href="https://patents.google.com/patent/US8935767B2/en">overlay HIP</a>。<strong>产品影响：</strong>Windows Live 中的 Visual HIP 和 Audio HIP。</span></li>
+        <li class="work-item"><span class="work-title">图形密码安全</span><span class="work-meta">点击式密码、密码离散化、点位记忆性、字典攻击</span><span class="work-desc">分析点击式图形密码，证明若干离散化方法会泄露密码信息，并连接人类记忆性、图像结构和攻击可行性。</span><span class="work-links"><strong>论文：</strong><a href="publications-zh.html#password-discretization-graphical-passwords">Security Implications of Password Discretization (WWW 2013)</a>；<a href="publications-zh.html#click-based-graphical-passwords-analysis">Security Analyses of Click-Based Graphical Passwords (ACM CCS 2014)</a>；<a href="publications-zh.html#captcha-as-graphical-passwords">CAPTCHA as Graphical Passwords (IEEE TIFS 2014)</a>。</span></li>
+        <li class="work-item"><span class="work-title">用户和设备认证</span><span class="work-meta">分布式 SSO、可穿戴辅助手机锁定、安全鼠标概念</span><span class="work-desc">探索在降低用户负担的同时增强安全性的认证方案，包括隐私保护分布式单点登录、腕戴设备辅助的零负担手机锁定和硬件辅助密码增强。</span><span class="work-links"><strong>专利：</strong><a href="https://patents.google.com/patent/US10298562B2/en">Distributed Single Sign-On Technologies</a>；<a href="https://patents.google.com/patent/US9641514B2/en">privacy-protecting SSO</a>。<strong>产品影响：</strong>MSN Mobile v6.5 中的移动完整性检测。</span></li>
+      </ul>
+    </section>
+
+    <section class="research-group">
+      <h2>多媒体安全、水印与内容保护</h2>
+      <p>该主题覆盖音频、图像和视频水印，多媒体认证，可伸缩媒体加密和 DRM，内容保护，以及图表、幻灯片等视觉媒体中的数据嵌入。</p>
+      <ul class="key-works">
+        <li class="work-item"><span class="work-title">水印与多媒体认证</span><span class="work-meta">音频、图像、视频、感知掩蔽、鲁棒数据隐藏、认证</span><span class="work-desc">从博士研究延伸到创业产品，覆盖鲁棒音频、图像和视频水印、感知掩蔽、多媒体认证、版权保护、追踪、链接和隐蔽通信。</span><span class="work-links"><strong>论文/章节：</strong><a href="publications-zh.html#multimedia-authentication-watermarking">Multimedia Authentication and Watermarking (Springer chapter 2003)</a>；<a href="publications-zh.html#robust-audio-watermarking">Robust Audio Watermarking (Signal Processing 1998)</a>；<a href="publications-zh.html#video-watermarking-perceptual-models">Video Watermarking Using Perceptual Models (IEEE JSAC 1998)</a>；<a href="publications-zh.html#robust-data-hiding-images">Robust Data Hiding for Images (DSP Workshop 1996)</a>。<strong>产品影响：</strong>Cognicity AudioKey、tMark 和 TurnKey 商业水印产品。</span></li>
+        <li class="work-item"><span class="work-title">可伸缩加密、DRM 与内容保护</span><span class="work-meta">MPEG-4 FGS、JPEG2000、分层访问控制、语法兼容加密</span><span class="work-desc">在保持可伸缩性和自适应能力的同时保护多媒体，包括语法兼容加密、分层访问控制、转码兼容保护和 DRM 设计。</span><span class="work-links"><strong>论文/章节/专利：</strong><a href="publications-zh.html#multimedia-encryption">Multimedia Encryption (Academic Press chapter 2006)</a>；<a href="publications-zh.html#scalable-encryption-multi-access">Scalable Encryption and Multi-Access Control (Academic Press chapter 2006)</a>；<a href="publications-zh.html#scalable-protection-mpeg4-fgs">Scalable Protection for MPEG-4 FGS (IEEE TMM 2005)</a>；<a href="publications-zh.html#jpeg2000-syntax-compliant-encryption">Syntax-compliant JPEG 2000 encryption (EURASIP JIS 2007)</a>；<a href="publications-zh.html#secure-key-management-scalable-codestreams">Secure Key Management for Scalable Codestreams (MMSP 2005)</a>；<a href="publications-zh.html#scalable-layered-access-control-multimedia">Scalable Layered Access Control for Multimedia (ISCAS 2005)</a>；<a href="publications-zh.html#jpeg2000-encryption-fine-granularity-scalability">JPEG 2000 Encryption Enabling Fine Granularity Scalability (ISCAS 2005)</a>；<a href="publications-zh.html#fully-scalable-encryption-mpeg4-fgs">Fully Scalable Encryption for MPEG-4 FGS (ISCAS 2003)</a>。<strong>产品影响：</strong>MUSE、4C DVD-Audio proposal 和 SDMI screening 等音乐行业版权保护工作。</span></li>
+        <li class="work-item"><span class="work-title">图表、幻灯片和图像中的数据嵌入</span><span class="work-meta">图表重建、鲁棒嵌入、屏幕重拍、可访问性</span><span class="work-desc">在图表/幻灯片图像中嵌入并恢复信息，用于从截图重建图表对象、提升图表内容可访问性等应用。</span><span class="work-links"><strong>论文：</strong><a href="publications-zh.html#chartstamp-chart-embedding">ChartStamp (ACM MM 2022)</a>；<a href="publications-zh.html#onelabeler-data-labeling-tools">OneLabeler (CHI 2022)</a>。<strong>专利：</strong><a href="https://patents.google.com/patent/US12075014B2/en">Data Embedding and Data Extraction in Image</a>。</span></li>
+      </ul>
+    </section>
+
+    <section class="research-group">
+      <h2>隐私保护计算与系统可靠性</h2>
+      <p>该主题覆盖受保护数据上的计算和大规模服务可靠性：同态加密域媒体处理、加密视频分析、异常检测、故障预测，以及面向 Web 规模基础设施的压缩。</p>
+      <ul class="key-works">
+        <li class="work-item"><span class="work-title">加密域中的媒体处理</span><span class="work-meta">同态加密、JPEG、FLAC、受保护计算</span><span class="work-desc">研究是否可以在不暴露媒体本身的情况下完成有用媒体处理，包括在同态加密域中进行 JPEG 解压和 FLAC 解码。</span><span class="work-links"><strong>论文：</strong><a href="publications-zh.html#jpeg-decompression-homomorphic-encryption">JPEG Decompression in the Homomorphic Encryption Domain (ACM MM 2018)</a>；<a href="publications-zh.html#encrypted-flac-decoding">Decoding Homomorphically Encrypted FLAC Audio without Decryption (ICASSP 2019)</a>。</span></li>
+        <li class="work-item"><span class="work-title">加密视频分析与多媒体隐私</span><span class="work-meta">HEVC 监控视频、运动检测、轨迹推断、隐私保护分析</span><span class="work-desc">在保护隐私的同时对监控视频进行有用分析，包括在加密 HEVC 压缩视频上直接进行运动检测和轨迹推断。</span><span class="work-links"><strong>论文：</strong><a href="publications-zh.html#privacy-preserving-motion-detection-hevc">Privacy-Preserving Motion Detection for HEVC-Compressed Surveillance Video (ACM TOMM 2022)</a>；<a href="publications-zh.html#cloud-video-surveillance-privacy-granularity">Privacy-Preserving Cloud-Based Video Surveillance (ICIP 2018)</a>；<a href="publications-zh.html#efficient-privacy-preserving-motion-detection-hevc">Efficient Privacy-Preserving Motion Detection for HEVC Video (INFOCOM WKSHPS 2018)</a>。</span></li>
+        <li class="work-item"><span class="work-title">系统可靠性、异常检测与压缩</span><span class="work-meta">Azure 事故分析、存储日志异常检测、微软亚洲研究院（MSRA）搜索索引压缩、Web 缓存</span><span class="work-desc">将机器学习和系统分析用于大规模服务可靠性与效率，包括事故预测/分诊、无干净标签异常检测、搜索索引存储压缩和 Web 系统性能改进。</span><span class="work-links"><strong>论文/专利：</strong><a href="publications-zh.html#smart-caching-web-browsers">Smart Caching for Web Browsers (WWW 2010)</a>；<a href="publications-zh.html#wpbench-web2-performance">WPBench (WWW 2009)</a>；<a href="https://patents.google.com/patent/US9195773B2/en">Structure-Based Adaptive Document Caching</a>。<strong>产品影响：</strong>微软亚洲研究院（MSRA）反向索引压缩研究转化到 Bing PDI，平均降低约 23% 存储且不降低压缩/解压速度。</span></li>
+      </ul>
+    </section>
+
+    <section class="research-section-title impact-title">
+      <div class="eyebrow">工作主题</div>
+      <h2>产品与创业工作主题</h2>
+      <p>按应用领域整理的代表性产品和创业工作，与上面的研究主题分开呈现。</p>
+    </section>
+
+    <section class="research-group">
+      <h2>M365 Core: Copilot、BizChat 与 Researcher Agent</h2>
+      <p>面向企业 AI 助手的应用研究与开发，使 Copilot 和相关 agent 更容易评估和改进：诊断推理轨迹、衡量引用质量、比较模型选择、支持深度搜索，并提升真实企业任务中的多轮可靠行为。</p>
+      <ul class="key-works">
+        <li class="work-item"><span class="work-title">推理评估与回放基础设施</span><span class="work-meta">M365 BizChat / Copilot</span><span class="work-desc">构建可回放和分析生产推理轨迹的基础设施，帮助团队以可重复方式诊断答案质量、引用质量、意图理解、搜索支撑推理和模型选择行为。</span></li>
+        <li class="work-item"><span class="work-title">Researcher agent 与 agentic deep search</span><span class="work-meta">M365 Researcher Agent / Copilot</span><span class="work-desc">推进企业信息工作中的深度搜索和 agentic 能力，关注任务分解、证据收集、基于证据的综合，以及揭示多轮 agent 成功或漂移的评估方法。</span></li>
+      </ul>
+    </section>
+
+    <section class="research-group">
+      <h2>微软 Bing Core Search: 检索、提示词与文档理解</h2>
+      <p>在微软 Bing Core Search 中开展检索和 Web 规模文档理解产品工作，将 LLM 和多向量检索能力转化为实用搜索流程：开发替代稀疏+稠密检索的新多向量检索机制，改进提示词优化，更丰富地表示文档，为新鲜和长尾页面生成信号，并衡量检索和推荐影响。</p>
+      <ul class="key-works">
+        <li class="work-item"><span class="work-title">提示词优化流程</span><span class="work-meta">微软 Bing Core Search</span><span class="work-desc">构建实用提示词优化流程，帮助多个 Bing 团队系统搜索、比较和改进提示词，而不是只依赖手工试错。</span></li>
+        <li class="work-item"><span class="work-title">替代稀疏+稠密检索的多向量检索</span><span class="work-meta">微软 Bing Core Search</span><span class="work-desc">为微软 Bing Core Search 构建灵活的多向量检索机制，并配套基于 LLM 的文档理解流水线，为真实交互数据稀疏的新鲜和长尾 Web 文档生成合成查询和点击信号。</span></li>
+      </ul>
+    </section>
+
+    <section class="research-group">
+      <h2>Cognicity: 商业水印产品</h2>
+      <p>作为联合创始人和主管科学家，将多媒体水印和数据嵌入博士研究转化为商业音频、图像和视频产品。工作结合算法设计、产品架构、核心模块实现，以及与版权保护和媒体行业需求的直接对接；Cognicity 后被 Digimarc 收购。</p>
+      <ul class="key-works">
+        <li class="work-item"><span class="work-title">AudioKey、tMark 与 TurnKey</span><span class="work-meta">商业音频水印产品</span><span class="work-desc">领导零售音频水印、下载时交易水印和刻录时每张 CD 唯一 ID 水印的产品架构和核心水印模块开发。</span></li>
+        <li class="work-item"><span class="work-title">图像、视频与数据嵌入产品</span><span class="work-meta">水印、指纹、追踪、链接</span><span class="work-desc">将产品线从音频扩展到图像和视频水印、指纹、版权保护、访问控制、追踪、链接和隐蔽通信场景。</span></li>
+        <li class="work-item"><span class="work-title">音乐行业版权保护工作</span><span class="work-meta">MUSE、4C DVD-Audio proposal、SDMI screening</span><span class="work-desc">为版权保护和访问控制行业工作贡献水印技术，包括 MUSE、4C Entity DVD-Audio proposal 和 SDMI Phase 2 screening。</span></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>朱斌（Bin Benjamin Zhu） &middot;
+      <a href="https://scholar.google.com/citations?user=zyXRIGgAAAAJ&amp;hl=en">Google Scholar</a> &middot;
+      <a href="https://dblp.org/pid/85/5693.html">DBLP</a>
+    </p>
+  </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

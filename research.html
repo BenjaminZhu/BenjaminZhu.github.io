@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Selected Work | Bin Zhu</title>
-  <meta name="description" content="Selected work for Bin (Benjamin) Zhu, covering research themes, product-group work, startup products, trustworthy AI, AI for security, and multimedia security.">
+  <meta name="description" content="Selected work for Bin (Benjamin) Zhu, covering research themes, product-team work, startup products, trustworthy AI, AI security, AI applications, and multimedia security.">
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
@@ -12,12 +12,14 @@
     <nav class="nav" aria-label="Primary navigation">
       <a class="brand" href="index.html">Bin Zhu</a>
       <div class="nav-links">
+        <a href="education.html">Education</a>
         <a href="experience.html">Experience</a>
         <a aria-current="page" href="research.html">Selected Work</a>
         <a href="publications.html">Publications</a>
         <a href="patents.html">Patents</a>
-        <a href="students.html">Students</a>
+        <a href="students.html">Mentoring</a>
         <a href="personal.html">Personal</a>
+        <a class="lang-switch" href="research-zh.html" lang="zh-Hans">中文</a>
       </div>
     </nav>
   </header>
@@ -28,11 +30,12 @@
       <h1>Selected Work</h1>
       <p>
         My work is organized here in two connected views. The research themes cover the main
-        intellectual areas: trustworthy AI, AI applications in security, AI-assistant quality,
-        multimedia security, privacy, and systems, with publications, patents, and product outcomes
-        listed under the relevant topic. The product-group themes cover direct work in Microsoft
-        product organizations. The complete record is on the
-        <a href="publications.html">publications</a> and <a href="patents.html">patents</a> pages.
+        intellectual areas: trustworthy AI, AI security, AI applications in security, AI-assistant
+        quality, multimedia security, privacy-preserving computation, and systems, with publications, patents, and product
+        outcomes listed under the relevant topic. The product-team themes cover direct work in
+        Microsoft product organizations. The complete record is on the
+        <a href="publications.html">publications</a>
+and <a href="patents.html">patents</a> pages.
       </p>
     </section>
 
@@ -46,8 +49,8 @@
       <h2>Trustworthy AI &amp; AI Security</h2>
       <p>
         This theme covers the security, robustness, and integrity of modern AI systems: backdoor
-        detection and purification, adversarial robustness, model fingerprinting and tamper detection,
-        LLM jailbreak and prompt-injection risks, agentic-system poisoning, and model IP protection.
+        detection and purification, adversarial robustness, model tamper detection and IP protection,
+        LLM jailbreak and prompt-injection risks, and agentic-system poisoning.
       </p>
       <ul class="key-works">
         <li class="work-item">
@@ -63,9 +66,9 @@
           <span class="work-links"><strong>Papers:</strong> <a href="publications.html#indirect-prompt-injection">Indirect Prompt Injection (KDD 2025)</a>; <a href="publications.html#sok-llm-jailbreak-robustness">SoK: LLM Jailbreak Robustness (IEEE S&amp;P 2026)</a>; <a href="publications.html#sirens-whisper">Sirens' Whisper (USENIX Security 2026)</a>; <a href="publications.html#quantifying-llm-attacks">Quantifying LLM Attacks (USENIX Security 2026)</a>; <a href="publications.html#fact2fiction-agentic-fact-checking">Fact2Fiction (AAAI 2026)</a>.</span>
         </li>
         <li class="work-item">
-          <span class="work-title">Model fingerprinting, tamper detection, and IP protection</span>
+          <span class="work-title">Model tamper detection and IP protection</span>
           <span class="work-meta">Black-box verification, hard-label detection, model copying, service integrity</span>
-          <span class="work-desc">This topic asks whether a model has been copied, modified, or tampered with when only limited access is available. The work develops fingerprints that remain useful under black-box or hard-label settings, aiming to protect model integrity and intellectual property in deployed AI services.</span>
+          <span class="work-desc">This topic asks whether a model has been copied, modified, or tampered with when only limited access is available. The work develops black-box and hard-label verification methods for tamper detection and intellectual-property protection in deployed AI services.</span>
           <span class="work-links"><strong>Papers:</strong> <a href="publications.html#esf-llm-tamper-detection">ESF (ACL Findings 2025)</a>; <a href="publications.html#resf-llm-tamper-detection">RESF (EMNLP 2025)</a>; <a href="publications.html#sdbf-hard-label-tamper-detection">SDBF (CVPR 2025)</a>; <a href="publications.html#intersecting-boundary-sensitive-fingerprinting">Intersecting-Boundary-Sensitive Fingerprinting (ICML 2024)</a>; <a href="publications.html#backdoor-watermark-llm-copyright">Backdoor Watermark for LLM Copyright (ACL 2023)</a>.</span>
         </li>
       </ul>
@@ -104,8 +107,8 @@
       <h2>AI Assistants, Search &amp; Optimization</h2>
       <p>
         This theme covers the quality of AI assistants and search systems: prompt optimization,
-        multi-turn agent evaluation, model selection, deep search, document understanding, and
-        retrieval-grounded reasoning.
+        multi-turn agent evaluation, model selection, deep search, document understanding,
+        search-grounded reasoning, and multi-vector retrieval.
       </p>
       <ul class="key-works">
         <li class="work-item">
@@ -117,7 +120,7 @@
         <li class="work-item">
           <span class="work-title">AI-assistant and agent evaluation</span>
           <span class="work-meta">Multi-turn quality, reasoning traces, citation quality, trustworthy assistant behavior</span>
-          <span class="work-desc">This topic focuses on how to evaluate AI assistants beyond single-turn answer correctness: multi-turn coherence, grounded reasoning, citation quality, model choice, and agent behavior over longer tasks.</span>
+          <span class="work-desc">This topic focuses on how to evaluate AI assistants beyond single-turn answer correctness: multi-turn coherence, search-grounded reasoning, citation quality, model choice, and agent behavior over longer tasks.</span>
           <span class="work-links"><strong>Paper:</strong> <a href="publications.html#evaluating-llm-agents-multiturn">Evaluating LLM-Based Agents for Multi-Turn Conversations: A Survey (ACM TIST 2026)</a>.</span>
         </li>
         <li class="work-item">
@@ -209,9 +212,9 @@
         </li>
         <li class="work-item">
           <span class="work-title">Systems reliability, anomaly detection, and compression</span>
-          <span class="work-meta">Azure incident analysis, storage-log anomaly detection, MSRA search-index compression, web caching</span>
-          <span class="work-desc">This line connects machine learning and systems analysis to large-scale service reliability and efficiency: predicting/triaging incidents, detecting anomalies without clean labels, reducing search-index storage through MSRA research, and improving web-system performance.</span>
-          <span class="work-links"><strong>Papers/patents:</strong> <a href="publications.html#smart-caching-web-browsers">Smart Caching for Web Browsers (WWW 2010)</a>; <a href="publications.html#wpbench-web2-performance">WPBench (WWW 2009)</a>; <a href="https://patents.google.com/patent/US9195773B2/en">Structure-Based Adaptive Document Caching</a>. <strong>Product outcome:</strong> MSRA reverse-index compression research transferred to Bing PDI, reducing storage by roughly 23% on average with no loss in compression/decompression speed.</span>
+          <span class="work-meta">Azure incident analysis, storage-log anomaly detection, Microsoft Research Asia (MSRA) search-index compression, web caching</span>
+          <span class="work-desc">This line connects machine learning and systems analysis to large-scale service reliability and efficiency: predicting/triaging incidents, detecting anomalies without clean labels, reducing search-index storage through Microsoft Research Asia (MSRA) research, and improving web-system performance.</span>
+          <span class="work-links"><strong>Papers/patents:</strong> <a href="publications.html#smart-caching-web-browsers">Smart Caching for Web Browsers (WWW 2010)</a>; <a href="publications.html#wpbench-web2-performance">WPBench (WWW 2009)</a>; <a href="https://patents.google.com/patent/US9195773B2/en">Structure-Based Adaptive Document Caching</a>. <strong>Product outcome:</strong> Microsoft Research Asia (MSRA) reverse-index compression research transferred to Bing PDI, reducing storage by roughly 23% on average with no loss in compression/decompression speed.</span>
         </li>
       </ul>
     </section>
@@ -227,14 +230,14 @@
       <p>
         Applied research and development for enterprise AI assistants that reason over organizational
         knowledge. The work centers on making Copilot and related agents easier to evaluate and improve:
-        diagnosing reasoning traces, measuring citation and retrieval quality, comparing model choices,
-        and supporting reliable multi-turn behavior for real enterprise tasks.
+        diagnosing reasoning traces, measuring citation quality, comparing model choices, supporting
+        deep search, and improving reliable multi-turn behavior for real enterprise tasks.
       </p>
       <ul class="key-works">
         <li class="work-item">
           <span class="work-title">Reasoning evaluation and replay infrastructure</span>
           <span class="work-meta">M365 BizChat / Copilot</span>
-          <span class="work-desc">Built infrastructure that replays and analyzes production reasoning traces, helping teams diagnose answer quality, citation quality, intent understanding, retrieval-grounded reasoning, and model-selection behavior in a repeatable way.</span>
+          <span class="work-desc">Built infrastructure that replays and analyzes production reasoning traces, helping teams diagnose answer quality, citation quality, intent understanding, search-grounded reasoning, and model-selection behavior in a repeatable way.</span>
         </li>
         <li class="work-item">
           <span class="work-title">Researcher agent and agentic deep search</span>
@@ -247,10 +250,11 @@
     <section class="research-group">
       <h2>Bing Core Search: Retrieval, Prompts &amp; Document Understanding</h2>
       <p>
-        Product-group work on search quality and Web-scale document understanding. The focus was to turn
-        LLM and neural-retrieval capabilities into practical search workflows: improving prompt quality,
+        Product-team work on Bing Core Search retrieval and Web-scale document understanding. The focus was
+        to turn LLM and multi-vector retrieval capabilities into practical search workflows: developing a new
+        multi-vector retrieval mechanism to replace sparse+dense retrieval, improving prompt optimization,
         representing documents more richly, creating signals for fresh and long-tail pages, and measuring
-        whether these changes help retrieval and recommendation quality.
+        retrieval and recommendation impact.
       </p>
       <ul class="key-works">
         <li class="work-item">
@@ -259,9 +263,9 @@
           <span class="work-desc">Built practical prompt-optimization workflows that helped multiple Bing teams search, compare, and improve prompts systematically instead of relying only on manual trial-and-error tuning.</span>
         </li>
         <li class="work-item">
-          <span class="work-title">Multi-vector retrieval and synthetic document signals</span>
+          <span class="work-title">Multi-vector retrieval replacing sparse+dense retrieval</span>
           <span class="work-meta">Bing Core Search</span>
-          <span class="work-desc">Built LLM-based document-understanding pipelines, multi-vector retrieval features, and synthetic queries/click signals for fresh and long-tail Web documents, supporting search-quality experiments and measurement where real interaction data is sparse.</span>
+          <span class="work-desc">Built a flexible multi-vector retrieval mechanism for Bing Core Search, along with LLM-based document-understanding pipelines and synthetic queries/click signals for fresh and long-tail Web documents where real interaction data is sparse.</span>
         </li>
       </ul>
     </section>
@@ -303,3 +307,7 @@
   </footer>
 </body>
 </html>
+
+
+
+
