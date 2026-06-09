@@ -225,6 +225,28 @@ h3 {
   border-bottom: 1px solid var(--line);
 }
 
+.research-section-title {
+  width: min(1120px, calc(100% - 36px));
+  margin: 10px auto 0;
+  padding: 28px 0 8px;
+}
+
+.research-section-title h2 {
+  font-size: 1.65rem;
+  margin-top: 8px;
+}
+
+.research-section-title p {
+  max-width: 760px;
+  color: var(--muted);
+  margin: 8px 0 0;
+}
+
+.impact-title {
+  margin-top: 34px;
+  border-top: 1px solid var(--line);
+}
+
 .research-group:last-of-type {
   border-bottom: none;
 }
@@ -273,6 +295,16 @@ h3 {
 
 .work-desc {
   color: var(--muted);
+}
+
+.work-links {
+  color: var(--muted);
+  font-size: 0.94rem;
+  margin-top: 5px;
+}
+
+.work-links a {
+  font-weight: 600;
 }
 
 .site-footer a {
